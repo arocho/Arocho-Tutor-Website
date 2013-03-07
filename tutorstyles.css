@@ -1,0 +1,51 @@
+/*
+	CS-101 Tutoring Website Style Sheet
+	Author: Arocho
+	Date:	Thursday, March 7, 2013
+	
+	Filename: tutorstyles.css
+*/
+
+/*	Navigation Styles */
+
+body{
+	background-image: url(resources/s_paper01.jpg);
+}
+
+header{
+	width: auto;
+	height: 100px;
+	background-image: url(resources/ribbon15b.png);
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+}
+
+nav li{
+	font-family: "Unica One", cursive;
+	font-size: 30px;
+	float: left;
+	text-align: center;
+	margin: 15px;
+	padding: 15px 10px;
+	width: 20%;;
+	list-style-type: none;
+}
+
+h1, h2, caption{
+	font-family: "Unica One", cursive;
+}
+
+p{
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+table tr{
+	font-family: "Roboto", sans-serif;
+}
+
+section.content {
+background-image: url(resources/s_paper04.jpg);
+background-size: 1307px, 627px;
+}
+
