@@ -51,7 +51,19 @@ section.content{
 	
 }
 
-#intro, #resources, #practice, #contact{
+img{
+	width: 20%;
+	height: auto;
+	float: left;
+	border-radius: 30px;
+	padding:20px;
+}
+
+#intro{
+	height: 240px;
+}
+
+#intro, #resources, #contact{
 	background-color: rgb(181,227,229);
 	border-radius: 20px;
 }
@@ -115,7 +127,7 @@ table.schedule td{
 	padding: 5px 0px;
 }
 
-table.schedule td#room {
+table.schedule td#rooma, td#roomb, td#roomc, td#roomd {
 	background-color: rgb(139,196,200);
 }
 
