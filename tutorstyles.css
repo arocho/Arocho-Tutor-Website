@@ -6,11 +6,17 @@
 	Filename: tutorstyles.css
 */
 
-/*	Navigation Styles */
+/* Body Styles */
 
-body{
-	background-image: url(resources/s_paper01.jpg);
+body {
+	background-image: url(resources/background_pattern.png);
+	background-repeat: repeat;
+	width: 768px;
+	margin: 0px auto;
+
 }
+
+/* HeaderNavigation Styles */
 
 header{
 	width: auto;
@@ -22,17 +28,39 @@ header{
 
 nav li{
 	font-family: "Unica One", cursive;
-	font-size: 30px;
+	font-size: 24px;
 	float: left;
 	text-align: center;
-	margin: 15px;
-	padding: 15px 10px;
-	width: 20%;;
+	margin: 5px;
+	padding: 15px 5px;
+	width: 20%;
 	list-style-type: none;
 }
 
-h1, h2, caption{
+/* Section Styles */
+
+section.content{
+	background-color: rgb(181,227,229);
+	width: 768px;
+	height: auto;
+	position: center;
+	
+}
+
+#resources, #contact{
+	background-color: rgb(166,209,210);
+}
+
+h2{
 	font-family: "Unica One", cursive;
+}
+
+h1, caption{
+	font-family: "Unica One", cursive;
+	font-size: 26px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
 }
 
 p{
@@ -40,12 +68,18 @@ p{
 	font-size: 18px;
 }
 
+/* Table styles */
+
 table tr{
 	font-family: "Roboto", sans-serif;
 }
 
-section.content {
-background-image: url(resources/s_paper04.jpg);
-background-size: 1307px, 627px;
+footer{
+	background-color: rgb(181,227,229);
+	margin: 200px, 0px;
+	font-family: "Unica One", cursive;
+	font-variant: small-caps;
+	text-align: center;
 }
+
 
