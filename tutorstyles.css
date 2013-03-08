@@ -51,16 +51,12 @@ section.content{
 	
 }
 
-img{
+article#intro img{
 	width: 20%;
 	height: auto;
 	float: left;
 	border-radius: 30px;
 	padding:20px;
-}
-
-#intro{
-	height: 240px;
 }
 
 #intro, #resources, #contact{
@@ -136,25 +132,3 @@ table.schedule th{
 	border-radius: 4px;
 	font-weight: 500;
 }
-
-/* Footer Styles */
-
-footer{
-	background-color: rgb(181,227,229);
-	margin: 200px, 0px;
-	font-family: "Unica One", cursive;
-	font-size: 22px;
-	font-variant: small-caps;
-	text-align: center;
-}
-
-footer a{
-	color: black;
-	text-decoration: none;
-	font-weight: 700;
-}
-
-footer a:hover{
-	background-color: rgb(139,196,200);
-}
-
