@@ -22,11 +22,13 @@ body {
 /* HeaderNavigation Styles */
 
 header{
-	width: auto;
+	width: 768px;
 	height: 100px;
 	background-image: url(resources/ribbon15b.png);
 	background-size: 100%, 100%;
 	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
 }
 
 nav li{
@@ -34,10 +36,39 @@ nav li{
 	font-size: 24px;
 	float: left;
 	text-align: center;
-	margin: 5px;
-	padding: 15px 5px;
+	margin: 0px;
+	padding: 0px 20px;
 	width: 25%;
 	list-style-type: none;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	background-color: rgba(255,240,223,.7);
+}
+
+h2{
+	padding: 70px 0px 0px 0px;
+	font-family: "Unica One", cursive;
+	font-variant: small-caps;
+	font-size: 32px;
+}
+
+h1{
+	font-family: "Unica One", cursive;
+	font-size: 26px;
+	text-decoration: none;
+	padding: 70px 0px 0px 0px;
+}
+
+caption{
+	font-family: "Unica One", cursive;
+	font-size: 26px;
+	text-decoration: none;
 }
 
 /* Section Styles */
@@ -48,15 +79,16 @@ section.content{
 	position: center;
 	text-align: center;
 	font-weight: 300; 
-	
+	padding: 50px 0px 0px 0px;
 }
+
+/* Article Styles */
 
 article#intro img{
 	width: 20%;
 	height: auto;
 	float: left;
-	border-radius: 30px;
-	padding:20px;
+	padding:60px 20px 20px 30px;
 }
 
 #intro, #resources, #contact{
@@ -64,24 +96,21 @@ article#intro img{
 	border-radius: 20px;
 }
 
-
-h2{
-	padding: 20px 0px 0px 0px;
-	font-family: "Unica One", cursive;
-	font-variant: small-caps;
+#resources table{
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
 }
 
-h1, caption{
-	font-family: "Unica One", cursive;
-	font-size: 26px;
-	text-decoration: none;
-	padding: 20px 0px 0px 0px;
+article p strong{
+	font-weight: 400;
 }
+
+/* Paragraph Styles */
 
 p{
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
-	padding: 0px 0px 20px 0px;
+	padding: 0px 20px 30px 20px;
 }
 
 p a{
@@ -92,10 +121,6 @@ p a{
 
 p a:hover{
 	background-color: rgb(139,196,200);
-}
-
-article p strong{
-	font-weight: 400;
 }
 
 /* Table styles */
@@ -130,5 +155,24 @@ table.schedule td#rooma, td#roomb, td#roomc, td#roomd {
 table.schedule th{
 	border: solid 2px rgb(128, 128, 128);
 	border-radius: 4px;
-	font-weight: 500;
+	font-weight: 400;
+}
+
+/* Resource Image Styles */
+
+img#mpl, img#khanacademy{
+	padding: 15px;
+}
+
+img#coursera{
+	width: 280px;
+	height: auto;
+	padding: 15px;
+}
+
+img#duke{
+	width:auto;
+	height: 200px;
+	padding: 15px;
+	
 }
