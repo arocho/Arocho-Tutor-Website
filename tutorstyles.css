@@ -32,7 +32,7 @@ header{
 }
 
 nav li{
-	font-family: "Unica One", cursive;
+	font-family: "Unica One", Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	float: left;
 	text-align: center;
@@ -59,16 +59,17 @@ h2{
 }
 
 h1{
-	font-family: "Unica One", cursive;
+	font-family: "Unica One", Arial, Helvetica, sans-serif;
 	font-size: 26px;
 	text-decoration: none;
 	padding: 70px 0px 0px 0px;
 }
 
 caption{
-	font-family: "Unica One", cursive;
+	font-family: "Unica One", Arial, Helvetica, sans-serif;
 	font-size: 26px;
 	text-decoration: none;
+	padding: 70px 0px 20px 0px;
 }
 
 /* Section Styles */
@@ -84,20 +85,20 @@ section.content{
 
 /* Article Styles */
 
-article#intro img{
+img#me{
 	width: 20%;
 	height: auto;
 	float: left;
 	padding:60px 20px 20px 30px;
 }
 
-#intro, #resources, #contact{
+article{
 	background-color: rgb(181,227,229);
 	border-radius: 20px;
 }
 
-#resources table{
-	font-family: "Roboto", sans-serif;
+table{
+	font-family: "Roboto", Impact, Charcoal, sans-serif;
 	font-weight: 300;
 }
 
@@ -108,7 +109,7 @@ article p strong{
 /* Paragraph Styles */
 
 p{
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", Impact, Charcoal, sans-serif;
 	font-size: 18px;
 	padding: 0px 20px 30px 20px;
 }
@@ -139,7 +140,7 @@ table.schedule col.time{
 }
 
 table.schedule tr{
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", Impact, Charcoal, sans-serif;
 }
 
 table.schedule td{
